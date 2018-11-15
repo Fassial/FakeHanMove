@@ -36,8 +36,8 @@
 ## 使用方法
 
  1. 手机端打开汉姆运动，注销账号
- 2. 重新使用微信对汉姆运动授权，使用 Fiddler 或 Charles 等工具对此过程抓包，获取登录请求头中的 `IMEI` 字段和返回数据中的 `IMEICode` 字段
- 3. 配置 [Python3](https://www.python.org/) 运行环境 (已经配置好环境的可忽略此步骤)
+ 2. 重新使用微信对汉姆运动授权，使用 Fiddler 或 Charles 等工具对此过程抓包，获取登录(client3.aipao.me)请求头中的 `IMEI` 字段(输入到UUID)和返回数据中的 `IMEICode` 字段(输入到IMEI code)
+ 3. 配置 [Python3](https://www.python.org/) 运行环境 (已经配置好环境的可忽略此步骤)
  4. Terminal 或 CMD 执行 `pip3 install requests` 安装 requests 库
  5. 运行 `main.py` ，按提示输入相关参数，即可上传跑步数据
  
